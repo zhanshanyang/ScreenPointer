@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SteeringWheelSimulator</string>
+
+    <string name="img_direction_pan_str">方向键</string>
+</resources>

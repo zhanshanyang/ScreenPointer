@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lyt_panel"
+        android:layout_width="310dip"
+        android:layout_height="190dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_touch"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="300dip"
+            android:layout_height="130dip"
+            android:layout_margin="5dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/btn_left_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/left_ok"
+                    android:contentDescription="@string/img_direction_pan_str" />
+
+                <ImageButton
+                    android:id="@+id/btn_left_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/left_left"
+                    android:contentDescription="@string/img_direction_pan_str" />
+
+                <ImageButton
+                    android:id="@+id/btn_left_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/left_up"
+                    android:contentDescription="@string/img_direction_pan_str" />
+
+                <ImageButton
+                    android:id="@+id/btn_left_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/left_right"
+                    android:contentDescription="@string/img_direction_pan_str" />
+
+                <ImageButton
+                    android:id="@+id/btn_left_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/left_down"
+                    android:contentDescription="@string/img_direction_pan_str" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/btn_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_settings"
+                    android:contentDescription="@string/img_direction_pan_str" />
+
+                <ImageButton
+                    android:id="@+id/btn_right_pre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/right_pre"
+                    android:contentDescription="@string/img_direction_pan_str" />
+
+                <ImageButton
+                    android:id="@+id/btn_right_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/right_call"
+                    android:contentDescription="@string/img_direction_pan_str" />
+
+                <ImageButton
+                    android:id="@+id/btn_right_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/right_next"
+                    android:contentDescription="@string/img_direction_pan_str" />
+
+                <ImageButton
+                    android:id="@+id/btn_right_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/right_voice"
+                    android:contentDescription="@string/img_direction_pan_str" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btn_left_ac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/img_direction_pan_str"
+                android:src="@drawable/left_ac" />
+
+            <ImageButton
+                android:id="@+id/btn_left_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/img_direction_pan_str"
+                android:src="@drawable/left_home" />
+
+            <ImageButton
+                android:id="@+id/btn_left_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/img_direction_pan_str"
+                android:src="@drawable/left_back" />
+
+            <ImageButton
+                android:id="@+id/btn_right_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/img_direction_pan_str"
+                android:src="@drawable/right_map" />
+
+            <ImageButton
+                android:id="@+id/btn_right_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/img_direction_pan_str"
+                android:src="@drawable/right_message" />
+
+            <ImageButton
+                android:id="@+id/btn_right_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/img_direction_pan_str"
+                android:src="@drawable/right_music" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
